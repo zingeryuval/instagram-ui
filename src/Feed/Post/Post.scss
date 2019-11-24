@@ -1,0 +1,58 @@
+.Post {
+  margin: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px  #d7d7d7 solid;
+}
+.Post:hover {
+  border: 1px #dbdbdb double;
+}
+.header {
+  height: 50px;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  font-family: 'Handlee', cursive;
+}
+
+.icon-user {
+  font-size: 40px;
+  color: #2ebd9e;
+  margin: 10px;
+}
+
+.icon {
+  color: #2ebd9e;
+  font-size: 20px;
+}
+
+.card-img-top {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 0;
+  transition: all .2s ease-in;
+}
+.card-img-top:hover {
+  transform: scale(0.8);
+}
+.card-text-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+
+.card-body {
+  padding: 0px 15px 15px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.text-muted{
+  margin-top: 10px;
+}
